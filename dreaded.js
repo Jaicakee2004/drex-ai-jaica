@@ -47,7 +47,7 @@ const Heroku = require("heroku-client");
  const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
-//const autobio = process.env.AUTOBIO || 'false';
+/const autobio = process.env.AUTOBIO || 'false';
 const botname = process.env.BOTNAME || 'DREX AI';
 const antibot = process.env.ANTIBOT || 'FALSE';
   
